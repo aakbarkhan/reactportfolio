@@ -7,23 +7,30 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 // import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+
 export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Appontment Scheduler",
+      description: "Made appointment with Dr. Ruby, Ruby on Rails, PostgreSQL, JavaScript",
       imgUrl: projImg1,
+      live: "",
+      github: "https://github.com/aakbarkhan/Appointment-app-backend",
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "metrics-webapp",
+      description: "This app shows the covid infection cases for different countries. Used React, Redux, Html&Css, JavaScript",
       imgUrl: projImg2,
+      live: 'https://coviid.netlify.app/',
+      github: 'https://github.com/aakbarkhan/metrics-webapp',
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Budget App",
+      description: "The Budget app. Used Ruby, Ruby on Rails, PostgreSQL, JavaScript.",
       imgUrl: projImg3,
+      live: 'https://bajat.herokuapp.com/',
+      github: 'https://github.com/aakbarkhan/budget-app'
     },
     {
       title: "Business Startup",
@@ -55,10 +62,10 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      <Nav.Link eventKey="first">Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      <Nav.Link eventKey="section">Blogs</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="third">Tab 3</Nav.Link>
@@ -80,7 +87,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, </p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>

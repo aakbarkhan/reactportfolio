@@ -51,11 +51,27 @@ p, a, li, button, ul {
 
 a:hover {
   text-decoration: none;
+  /* color: #fff; */
+}
+
+.live {
+  color: rgb(83, 81, 81);
+  text-decoration: none;
+  color: #fff;
+}
+
+.live:hover {
+  color: #fff;
 }
 
 img {
   width: 100%;
   height: auto;
+}
+
+.logo {
+  width: 80px;
+  border-radius: 50%;
 }
 
 button {

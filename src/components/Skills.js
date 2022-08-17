@@ -12,8 +12,8 @@ import './skills.css';
 export const Skills = () => {
     return (
         <section className="skill" id="skills">
-          <h5>The Skills I Have</h5>
-          <h2>Skills</h2>
+          <h5 className='title'>The Skills I Have</h5>
+          <h2 className='title'>Skills</h2>
           <div className="container experience__container">
             <div className="experience__frontend">
               <h3>Front-end Development</h3>
@@ -42,10 +42,7 @@ export const Skills = () => {
                   <BsFillPatchCheckFill className="experience__details-icon" />
                   <h4>SCSS</h4>
                 </article>
-                <article className="experience__details">
-                  <BsFillPatchCheckFill className="experience__details-icon" />
-                  <h4>Tailwind</h4>
-                </article>
+               
               </div>
             </div>
             <div className="experience__backend">
