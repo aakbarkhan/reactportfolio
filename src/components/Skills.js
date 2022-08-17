@@ -1,19 +1,11 @@
-// import meter1 from "../assets/img/meter1.svg";
-// import meter2 from "../assets/img/meter2.svg";
-// import meter3 from "../assets/img/meter3.svg";
-// import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
 import { BsFillPatchCheckFill } from 'react-icons/bs';
 import './skills.css';
-// import arrow1 from "../assets/img/arrow1.svg";
-// import arrow2 from "../assets/img/arrow2.svg";
-// import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
     return (
         <section className="skill" id="skills">
           <h5 className='title'>The Skills I Have</h5>
-          <h2 className='title'>Skills</h2>
+          <h2 className='title'>My Experience</h2>
           <div className="container experience__container">
             <div className="experience__frontend">
               <h3>Front-end Development</h3>
