@@ -7,10 +7,10 @@ import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import { HashLink } from 'react-router-hash-link';
 import {  BrowserRouter as Router } from "react-router-dom";
-// import arrow from '../assets/arrow1.svg'
 
 
-const NavBar = () => {
+
+export const NavBar = () => {
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
   
@@ -51,9 +51,9 @@ const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
+                <a href="home"><img src={navIcon1} alt="" /></a>
+                <a href="skills"><img src={navIcon2} alt="" /></a>
+                <a href="projects"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
@@ -65,5 +65,3 @@ const NavBar = () => {
     </Router>
   )
 }
-
-export default NavBar;
