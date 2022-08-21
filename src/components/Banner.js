@@ -48,6 +48,10 @@ export const Banner = () => {
     }
   }
 
+  const connect = () => {
+    window.location.href = '#connect';
+  }
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -58,8 +62,8 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Aku`} <span className="txt-rotate" data-rotate=''><span className="wrap">{text}</span></span></h1>
-                  <p>I join the remote bootcamp and was learning with other's remote developers and share what we </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <p>I join the remote Bootcamp and was learning with other's remote developers for several months in HTML & CSS, React, Redux, JavaScript, Ruby, Ruby on Rails, and PostgreSQL.</p>
+                  <button onClick={connect}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
