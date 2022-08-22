@@ -6,6 +6,7 @@ import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img5.png";
 import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/project-img7.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -55,6 +56,13 @@ export const Projects = () => {
       imgUrl: projImg6,
       live: 'https://angry-bassi-da3bfc.netlify.app/',
       github: 'https://github.com/aakbarkhan/bookstore'
+    },
+    {
+      title: "Space Traveller's Hub",
+      description: "It is about reserved the rocket and the joining the mission and can be seen all in the profile. Used Redux, React, HTML&CSS and  JavaScript.",
+      imgUrl: projImg7,
+      live: 'https://atoz-space.netlify.app/',
+      github: 'https://github.com/aakbarkhan/SpaceTravelers'
     },
   ];
 
